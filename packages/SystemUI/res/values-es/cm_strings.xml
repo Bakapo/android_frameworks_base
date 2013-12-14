@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Copyright (C) 2012-2013 The CyanogenMod Project
+
+     Licensed under the Apache License, Version 2.0 (the "License");
+     you may not use this file except in compliance with the License.
+     You may obtain a copy of the License at
+
+          http://www.apache.org/licenses/LICENSE-2.0
+
+     Unless required by applicable law or agreed to in writing, software
+     distributed under the License is distributed on an "AS IS" BASIS,
+     WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+     See the License for the specific language governing permissions and
+     limitations under the License.
+-->
+
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <!-- HALO Content description of the halo button in the notification panel for accessibility (not sho
+         wn on the screen). [CHAR LIMIT=NONE] -->  
+    <string name="accessibility_halo">Crear notificacion HALO.</string>  
+        
+    <string name="halo_dismiss">Descartar notificación</string>  
+    <string name="halo_hide">Ocultar</string>  
+	<string name="halo_clear_all">Limpiar todas las notificaciones</string>
+    <string name="halo_silence">Ocultar y silenciar hasta despertar</string>
+    <string name="halo_tutorial1">Este es HALO</string>  
+    <string name="halo_tutorial2">Doble pulsación y arrastre para moverme alrededor, arrastre para alternar entre las tareas</string>
+    <string name="halo_tutorial3">Cambia mi comportamiento en Ajustes</string>
+    <string name="halo_battery_plugged">CARGANDO</string>  
+    <string name="halo_battery_unplugged">RESTANTE</string>  
+    <string name="halo_battery_full">CARGADO</string>  
+    <string name="halo_aeroplane1">AVION</string>  
+    <string name="halo_aeroplane2">MODO</string>  
+    <string name="halo_wifi_on">WI-FI ENCENDIDO</string>  
+    <string name="halo_wifi_off">WI-FI APAGADO</string>  
+    <string name="halo_signal_bars_4">COMPLETO</string>  
+    <string name="halo_signal_bars_3">TRES BARRAS</string>  
+    <string name="halo_signal_bars_2">DOS BARRAS</string>  
+    <string name="halo_signal_bars_1">UNA BARRA</string>  
+    <string name="halo_signal_bars_none">NINGUNA BARRA</string>
+</resources>
+    
