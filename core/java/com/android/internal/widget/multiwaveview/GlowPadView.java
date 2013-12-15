@@ -704,7 +704,11 @@ public class GlowPadView extends View {
             internalSetTargetResources(drawList);
         }
     }
-
+    
+	public ArrayList<TargetDrawable> getTargetDrawables() {
+        return mTargetDrawables;
+    }
+    
     /**
      * Sets the resource id specifying the target descriptions for accessibility.
      *
