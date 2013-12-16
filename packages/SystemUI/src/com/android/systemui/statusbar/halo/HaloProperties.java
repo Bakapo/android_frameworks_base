@@ -49,6 +49,7 @@ import java.text.SimpleDateFormat;
 import java.util.Date;
 
 import com.android.systemui.statusbar.policy.BatteryController.BatteryStateChangeCallback;
+import com.android.systemui.BatteryMeterView.BatteryMeterMode;
 import com.android.systemui.statusbar.policy.NetworkController;
 import com.android.systemui.statusbar.policy.NetworkController.NetworkSignalChangedCallback;
 
@@ -492,7 +493,7 @@ public class HaloProperties extends FrameLayout implements BatteryStateChangeCal
     }
 
     @Override
-    public void onBatteryLevelChanged(int level, boolean pluggedIn, int status) {
+    public void onBatteryLevelChanged(boolean present, int level, boolean pluggedIn, int status) {
         mBatteryLevel = level;
         mCharging = pluggedIn;
     }
@@ -637,4 +638,9 @@ public class HaloProperties extends FrameLayout implements BatteryStateChangeCal
         }
         return string;
     }
+    @Override
+    public void onBatteryMeterModeChanged(BatteryMeterMode mode) {/*Ignore*/}
+    @Override
+    public void onBatteryMeterShowPercent(boolean showPercent) {/*Ignore*/}
+
 }

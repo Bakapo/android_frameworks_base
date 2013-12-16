@@ -2835,13 +2835,7 @@ public final class Settings {
          * @hide
          */
         public static final String QS_DYNAMIC_ALARM = "qs_dyanmic_alarm";
-
-	/**
-         * Whether power menu screen record is enabled
-          * @hide
-         */
-        public static final String POWER_MENU_SCREENRECORD_ENABLED = "power_menu_screenrecord_enabled";       
-
+        
         /**
          * Quick Settings Panel Dynamic Tiles
          *
@@ -3225,6 +3219,12 @@ public final class Settings {
          * @hide
          */
         public static final String POWER_MENU_REBOOT_ENABLED = "power_menu_reboot_enabled";
+        
+        /**
+         * Whether power menu screenshot is enabled
+         * @hide
+         */
+        public static final String POWER_MENU_SCREENRECORD_ENABLED = "power_menu_screenrecord_enabled";
 
         /**
          * Whether power menu screenshot is enabled
@@ -3608,6 +3608,7 @@ public final class Settings {
             QUIET_HOURS_STILL,
             QUIET_HOURS_DIM,
             SYSTEM_PROFILES_ENABLED,
+            POWER_MENU_SCREENRECORD_ENABLED,
             POWER_MENU_SCREENSHOT_ENABLED,
             POWER_MENU_REBOOT_ENABLED,
             POWER_MENU_PROFILES_ENABLED,
