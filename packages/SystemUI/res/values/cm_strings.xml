@@ -105,7 +105,6 @@
     <!-- Development shortcut -->
     <string name="advanced_dev_option_wipe_app">Wipe app data</string>
     <string name="advanced_dev_option_force_stop">Force stop</string>
-    
 
     <!-- HALO Content description of the halo button in the notification panel for accessibility (not sho
          wn on the screen). [CHAR LIMIT=NONE] -->  
@@ -130,4 +129,8 @@
     <string name="halo_signal_bars_2">TWO BARS</string>  
     <string name="halo_signal_bars_1">ONE BAR</string>  
     <string name="halo_signal_bars_none">NO BARS</string>
+
+    <!-- Content description of the dock battery level icon for accessibility (not shown on the screen). [CHAR LIMIT=NONE] -->
+    <string name="accessibility_dock_battery_level">Dock Battery <xliff:g id="number">%d</xliff:g> percent.</string>
+
 </resources>
