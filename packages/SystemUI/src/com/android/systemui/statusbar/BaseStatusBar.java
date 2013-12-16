@@ -167,6 +167,9 @@ public abstract class BaseStatusBar extends SystemUI implements
     public boolean mHaloTaskerActive = false;
     protected ImageView mHaloButton;
     protected boolean mHaloButtonVisible = true;
+    
+    // Active Display
+    protected boolean mADEnabled;
 
     protected FrameLayout mStatusBarContainer;
 
@@ -358,6 +361,9 @@ public abstract class BaseStatusBar extends SystemUI implements
 
         mHaloActive = Settings.System.getInt(mContext.getContentResolver(),
                 Settings.System.HALO_ACTIVE, 0) == 1;
+
+		mADEnabled = Settings.System.getInt(mContext.getContentResolver(),
+                Settings.System.ENABLE_ACTIVE_DISPLAY, 0) == 1;
 
         createAndAddWindows();
 
