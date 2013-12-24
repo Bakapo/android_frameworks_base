@@ -3215,24 +3215,6 @@ public final class Settings {
         public static final String SYSTEM_PROFILES_ENABLED = "system_profiles_enabled";
         
         /**
-         * TeloRadio enable
-         * @hide
-         */
-        public static final String TELO_RADIO_ENABLED = "telo_radio_enabled";
-        
-        /**
-         * TeloRadio 2g with wifi
-         * @hide
-         */
-        public static final String TELO_RADIO_2G_WIFI = "telo_radio_2g_wifi";
-        
-        /**
-         * TeloRadio LTE in high power
-         * @hide
-         */
-        public static final String TELO_RADIO_LTE = "telo_radio_lte";
-        
-        /**
          * Whether the power menu reboot menu is enabled
          * @hide
          */
@@ -3540,19 +3522,7 @@ public final class Settings {
          * Screen recorder framerate in bits per second
          * @hide
          */
-        public static final String SCREEN_RECORDER_BITRATE = "screen_recorder_bitrate";   
-             
-        /**
-         *  TeloRadio Low power network 
-         * @hide
-         */
-        public static final String TELO_RADIO_LOW_POWER = "telo_radio_low_power";        
-
-        /**
-         * TeloRadio High power network 
-         * @hide
-         */
-        public static final String TELO_RADIO_HIGH_POWER = "telo_radio_high_power";        
+        public static final String SCREEN_RECORDER_BITRATE = "screen_recorder_bitrate";     
 
 
         /**
@@ -3651,9 +3621,6 @@ public final class Settings {
             PHONE_BLACKLIST_PRIVATE_NUMBER_MODE,
             PHONE_BLACKLIST_UNKNOWN_NUMBER_MODE,
             PHONE_BLACKLIST_REGEX_ENABLED,
-            TELO_RADIO_ENABLED,
-            TELO_RADIO_2G_WIFI,
-            TELO_RADIO_LTE,
         };
 
         // Settings moved to Settings.Secure
